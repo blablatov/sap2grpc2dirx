@@ -18,7 +18,7 @@
 
 Systems integration SAP и Directum RX, they have not gRPC. Test modules REST over gRPC with grpc-gateway for Go.
 
-Sheme exchange of data is like that:
+Scheme exchange of data is like that:
 
 > SAP/REST(imitation from web browser) <---> local web-server/sap2grpc <---> gRPC-client/drxclient <---> gRPC-server/drxserver <---> REST/postcreate
 
